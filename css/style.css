@@ -20,17 +20,6 @@ html{
     background-color: var(--color-black-main);
 }
 
-.toolbar{
-    height: 100px;
-    background-color: var(--color-black-toolbar);
-}
-
-.content{
-    height: calc(100vh - 100px);
-    width: 100%;
-    background-color: var(--color-black-main)
-}
-
 ul{
     list-style: none;
 }
@@ -63,12 +52,23 @@ body{
     font-family:"Montserrat", sans-serif;
 }
 
+/* flex utility */
+.d-flex{
+    display: flex;
+}
+
 /* MAIN CONTENT */
+
+.content{
+    height: calc(100vh - 100px);
+    width: 100%;
+    background-color: var(--color-black-main)
+}
 
 /* main */
 main{
     width: calc(100% - 200px);
-    padding-top: 100px;
+    padding-top: 200px;
     overflow-y: auto;
     background-color: var(--color-black-main);
     color: var(--color-white);
@@ -82,6 +82,7 @@ main{
 /* sidebar */
 #sidebar{
     width: 200px;
+    height: 100%;
     background-color: var(--color-black-sidebar);
     color: var(--color-white);
 }
