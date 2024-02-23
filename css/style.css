@@ -136,6 +136,11 @@ main .cards-container img{
     aspect-ratio: 1 / 1;
 }
 
+main .cards-container h3, .subtitle{
+padding-top: 10px;
+}
+
+
 /* toolbar */
 #toolbar{
     background-color: var(--color-black-toolbar);
