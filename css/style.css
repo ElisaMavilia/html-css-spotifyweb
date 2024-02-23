@@ -68,7 +68,7 @@ body{
 /* main */
 main{
     width: calc(100% - 200px);
-    padding-top: 200px;
+    padding: 100px 20px 20px 20px;
     overflow-y: auto;
     background-color: var(--color-black-main);
     color: var(--color-white);
@@ -82,17 +82,16 @@ main{
 /* sidebar */
 #sidebar{
     width: 200px;
-    height: 100%;
     background-color: var(--color-black-sidebar);
     color: var(--color-white);
 }
 
-/* header */
+/* header navbar */
 #header{
 height: 80px;
 width: calc(100% - 200px);
 position: fixed;
 top: 0;
 left: 200px;
-background-color: rgba(0, 0, 0, 0.5);
+background-color: rgba(0, 0, 0, 0.531);
 }
