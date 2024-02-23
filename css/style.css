@@ -114,6 +114,7 @@ a{
     position: fixed;
     top: 0;
     left: 200px;
+    z-index: 3000;
     background-color: rgba(0, 0, 0, 0.531);
     padding-top: 35px;
     font-size: 0.8em;
@@ -163,7 +164,7 @@ main img{
 }
 
 main h3, .subtitle{
-padding-top: 10px;
+    padding-top: 10px;
 }
 
 .center-row h2{
