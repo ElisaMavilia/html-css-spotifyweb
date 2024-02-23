@@ -11,6 +11,9 @@
 }
 
 /* general */
+html{
+    scroll-behavior: smooth;
+}
 
 .wrapper{
     height: 100vh;
@@ -19,12 +22,13 @@
 
 .toolbar{
     height: 100px;
+    background-color: var(--color-black-toolbar);
 }
 
 .content{
     height: calc(100vh - 100px);
     width: 100%;
-    background-color: blueviolet;
+    background-color: var(--color-black-main)
 }
 
 ul{
@@ -57,4 +61,37 @@ ul{
 
 body{
     font-family:"Montserrat", sans-serif;
+}
+
+/* MAIN CONTENT */
+
+/* main */
+main{
+    width: calc(100% - 200px);
+    padding-top: 100px;
+    overflow-y: auto;
+    background-color: var(--color-black-main);
+    color: var(--color-white);
+}
+
+/* toolbar */
+#toolbar{
+    background-color: var(--color-black-toolbar);
+    height: 100px;
+}
+/* sidebar */
+#sidebar{
+    width: 200px;
+    background-color: var(--color-black-sidebar);
+    color: var(--color-white);
+}
+
+/* header */
+#header{
+height: 80px;
+width: calc(100% - 200px);
+position: fixed;
+top: 0;
+left: 200px;
+background-color: rgba(0, 0, 0, 0.5);
 }
