@@ -15,6 +15,11 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    font-family:"Montserrat", sans-serif;
+    font-size: 1em;
+}
+
 .wrapper{
     height: 100vh;
     background-color: var(--color-black-main);
@@ -52,9 +57,12 @@ ul{
     text-transform: uppercase;
 }
 
-body{
-    font-family:"Montserrat", sans-serif;
-    font-size: 1em;
+.text-center{
+    text-align: center;
+}
+
+.subtitle{
+    font-size: 0.8em;
 }
 
 /* flex utility */
@@ -89,16 +97,13 @@ body{
     padding-top: 35px;
     font-size: 0.8em;
     font-weight: 800;
-    }
+}
 
 #navbar{
     max-width: 700px ;
     margin: auto;
 }
     
-
-
-
 /* MAIN CONTENT */
 
 .content{
@@ -114,6 +119,21 @@ main{
     overflow-y: auto;
     background-color: var(--color-black-main);
     color: var(--color-white);
+}
+
+.cards-container{
+    gap: 15px;
+}
+
+.single-card{
+    width: calc(100% / 6 - 15px);
+    padding-top: 20px;
+}
+
+main .cards-container img{
+    width: 100%;
+    display: block;
+    aspect-ratio: 1 / 1;
 }
 
 /* toolbar */
