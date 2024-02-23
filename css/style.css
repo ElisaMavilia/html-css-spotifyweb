@@ -100,10 +100,7 @@ ul{
     font-weight: 800;
 }
 
-#navbar{
-    max-width: 700px ;
-    margin: auto;
-}
+
     
 /* MAIN CONTENT */
 
@@ -120,6 +117,12 @@ main{
     overflow-y: auto;
     background-color: var(--color-black-main);
     color: var(--color-white);
+}
+
+#navbar{
+    max-width: 700px ;
+    margin: auto;
+    padding-bottom: 40px;
 }
 
 .cards-container{
@@ -142,7 +145,7 @@ padding-top: 10px;
 }
 
 .center-row h2{
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 
