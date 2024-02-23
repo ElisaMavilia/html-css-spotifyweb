@@ -130,14 +130,18 @@ main{
     padding-top: 20px;
 }
 
-main .cards-container img{
+main img{
     width: 100%;
     display: block;
     aspect-ratio: 1 / 1;
 }
 
-main .cards-container h3, .subtitle{
+main h3, .subtitle{
 padding-top: 10px;
+}
+
+.center-row h2{
+    padding-top: 20px;
 }
 
 
