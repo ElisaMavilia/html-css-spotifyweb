@@ -65,6 +65,7 @@ ul{
     font-size: 0.8em;
 }
 
+
 /* flex utility */
 .d-flex{
     display: flex;
@@ -122,11 +123,11 @@ main{
 }
 
 .cards-container{
-    gap: 15px;
+    gap: 20px;
 }
 
 .single-card{
-    width: calc(100% / 6 - 15px);
+    width: calc(100% / 6 - 20px);
     padding-top: 20px;
 }
 
