@@ -4,21 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/favicon.ico"/>
     <title>Spotify</title>
 </head>
 <body>
     <div class="wrapper debug">
+        <!-- Main container -->
         <div class="content d-flex debug">
+        <!-- Header with button -->
             <div id="header" class="debug d-flex j-content-flex-end a-content-center a-items-center">
                 <span class="btn-black"><a class="uppercase white-text" href="#">Effettua l'upgrade</a></span>
             </div>
-            <div id="sidebar" class="debug">sidebar</div>
+        <!-- Sidebar with logo and menu -->
+            <div id="sidebar" class="debug">
+                <img src="img/logo.svg" alt="Logo Spotify">
+                <div class="menu-container d-flex direction-column">
+                <div class="grey-text"><i class="fa-solid fa-house"></i> Home</div>
+                <div class="grey-text"><i class="fa-solid fa-magnifying-glass"></i> Cerca</div>
+                <div class="grey-text"><i class="fa-solid fa-book"></i> La tua libreria</div>
+                <div id="playlist" class="white-text uppercase">Playlist</div>
+               <div class="d-flex a-items-center a-content-center">
+                <div id="squared-btn" class="black-text bg-grey"><a class="btn-a black-text" href="#"><i class="fa-solid fa-plus"></i></a>    
+                </div>
+                <span class="grey-text">Crea Playlist</span>
+               </div>
+              
+                <div class="grey-text">Nome Playlist</div>
+                <div class="grey-text">Nome Playlist</div>
+                <div class="grey-text">Nome Playlist</div>
+                <div class="grey-text">Nome Playlist</div>
+                <div class="grey-text">Nome Playlist</div>
+                <div class="grey-text">Nome Playlist</div>
+                <div class="grey-text">Nome Playlist</div>
+                </div>
+            </div>
+        <!-- Main content -->
             <main class="debug">
+            <!-- Navbar -->
                 <div id="navbar">
                     <ul class="d-flex space-between a-content-center a-items-center">
                         <li><a class="grey-text uppercase text-decoration" href="#">In evidenza</a></li>
@@ -29,6 +55,7 @@
                         <li><a class="grey-text uppercase text-decoration" href="#">Scopri</a></li>
                     </ul>
                 </div>
+                <!-- Cards -->
                 <div id="top-row">
                     <h2 class="white-text">
                         Recently played
@@ -137,6 +164,7 @@
                 </div>
             </main>
          </div>
+         <!-- Toolbar -->
         <div id="toolbar debug"></div>
     </div>
 </body>
