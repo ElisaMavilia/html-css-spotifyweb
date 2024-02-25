@@ -34,7 +34,7 @@ a{
 }
 
 .padding-bottom-10{
-    padding-bottom: 10%;
+    padding-bottom: 10px;
 }
 
 /* utility colors */:root {
@@ -81,8 +81,11 @@ a{
     font-size: 0.8em;
 }
 
+.font-size-0-9{
+    font-size: 0.9em;
+}
 
-
+.fo
 /* Buttons */
 .btn-black{
     background-color: var(--color-black-sidebar);
@@ -214,12 +217,8 @@ main h3, .subtitle{
     margin-top: 10px;
 }
 
-#playlist{
-    margin-bottom: 20px;
-}
-
 .btn-sidebar{
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 #squared-btn{
@@ -228,6 +227,11 @@ main h3, .subtitle{
     width: 40px;
     height: 40px;
     position: relative;
+}
+
+#playlist{
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 .fa-house,.fa-magnifying-glass,.fa-book{
@@ -255,7 +259,19 @@ main h3, .subtitle{
     color: var(--color-grey-text);
 }
 
-.sidebar-footer{
-    padding-top: 300px;
+.fa-circle-user{
+    font-size: 2em;
+    padding-right: 5px;
 }
 
+.sidebar-footer{
+    padding-top: 280px;
+}
+
+div hr{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    margin-left: 2px;
+    color: var(--color-grey-text);
+}
