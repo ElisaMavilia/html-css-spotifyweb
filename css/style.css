@@ -33,6 +33,10 @@ a{
     text-decoration: none;
 }
 
+.padding-bottom-10{
+    padding-bottom: 10%;
+}
+
 /* utility colors */:root {
 	--color-black-main: #141922;
 	--color-black-sidebar: #000000;
@@ -77,6 +81,8 @@ a{
     font-size: 0.8em;
 }
 
+
+
 /* Buttons */
 .btn-black{
     background-color: var(--color-black-sidebar);
@@ -108,9 +114,18 @@ a{
     align-items: center;
 }
 
+.a-items-flex-end{
+    align-items: flex-end;
+}
+
 .a-content-center{
     align-content: center;
 }
+
+.a-content-flex-end{
+    align-content: flex-end;
+}
+
 .direction-column{
     flex-direction: column;
 }
@@ -190,17 +205,34 @@ main h3, .subtitle{
     width: 200px;
     background-color: var(--color-black-sidebar);
     color: var(--color-white);
+    padding-left: 20px;
+}
+
+#logo-sidebar{
+    width: 75%;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
 
 #playlist{
     margin-bottom: 20px;
 }
 
+.btn-sidebar{
+    margin-bottom: 20px;
+}
+
 #squared-btn{
     padding: 12px 12px 12px 12px;
+    margin-right: 10px;
     width: 40px;
     height: 40px;
     position: relative;
+}
+
+.fa-house,.fa-magnifying-glass,.fa-book{
+    font-size: 1.5em;
+    margin-right: 5px;
 }
 
 .fa-plus{
@@ -219,4 +251,11 @@ main h3, .subtitle{
     padding-left: 2px;
 }
 
+.fa-circle-down{
+    color: var(--color-grey-text);
+}
+
+.sidebar-footer{
+    padding-top: 300px;
+}
 
