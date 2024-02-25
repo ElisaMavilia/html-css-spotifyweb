@@ -92,8 +92,8 @@ a{
     border: 1px solid white;
     border-radius: 20px;
     padding: 10px 30px 10px 30px;
-    /* margin-right: 40px;
-    margin-bottom: 40px; */
+    margin-right: 40px;
+    margin-bottom: 40px;
 }
 
 /* flex utility */
@@ -203,6 +203,10 @@ main h3, .subtitle{
     background-color: var(--color-black-toolbar);
     height: 100px;
 }
+
+
+
+
 /* sidebar */
 #sidebar{
     width: 200px;
@@ -253,6 +257,10 @@ main h3, .subtitle{
 
 .btn-a{
     padding-left: 2px;
+}
+
+.sidebar-container{
+  justify-content: flex-end; 
 }
 
 .fa-circle-down{
