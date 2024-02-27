@@ -414,6 +414,17 @@ div hr{
 
     #small-logo{
         display: block;
+       width: 80%;
+       padding-top: 5px;
+    }
+
+    #download{
+        width: 30%;
+        padding-bottom: 30px;
+    }
+
+    #profile{
+        width: 60%;
     }
     
     main{
