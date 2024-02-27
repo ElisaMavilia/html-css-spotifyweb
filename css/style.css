@@ -396,3 +396,27 @@ div hr{
         
     }
 }
+
+@media screen and (max-width:768px){
+    .single-card{
+        width: calc(100% / 2 - 20px);
+    }
+}
+
+@media screen and (max-width:576px){
+    .single-card{
+        width: calc(100% - 20px);
+    }
+
+    #logo-sidebar{
+        display: none;
+    }
+
+    #small-logo{
+        display: block;
+    }
+
+    .menu-container ul li span,#playlist,.btn-sidebar,#create-playlist, #sidebar-top ul li,#sidebar-bottom div span,hr{
+        display: none;
+    }
+}
