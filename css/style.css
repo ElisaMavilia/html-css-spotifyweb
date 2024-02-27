@@ -250,6 +250,11 @@ main h3, .subtitle{
     margin-top: 10px;
 }
 
+#small-logo{
+    width: 20%;
+    display: none;
+}
+
 .btn-sidebar{
     margin-bottom: 15px;
 }
@@ -267,10 +272,6 @@ main h3, .subtitle{
     margin-bottom: 15px;
 }
 
-.fa-house,.fa-magnifying-glass,.fa-book{
-    font-size: 1.5em;
-    margin-right: 5px;
-}
 
 .fa-plus{
    /*  text-align: center;
