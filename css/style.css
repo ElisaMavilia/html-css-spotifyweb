@@ -212,13 +212,31 @@ main h3, .subtitle{
 /* sidebar */
 #sidebar{
     width: 200px;
+    min-height: 480px;
+    overflow: hidden;
     background-color: var(--color-black-sidebar);
     color: var(--color-white);
     padding-left: 20px;
 }
 
+#sidebar-top{
+    height: calc(100% - 80px);
+    width: 100%;
+    background-color: var(--color-black-sidebar);
+}
+
+#sidebar-bottom{
+    height: 80px;
+    width: 100%;
+    
+}
+
+#sidebar #sidebar-top .menu-container ul{
+    overflow: auto;
+}
+
 #logo-sidebar{
-    width: 75%;
+    width: 80%;
     margin-bottom: 15px;
     margin-top: 10px;
 }
@@ -259,10 +277,6 @@ main h3, .subtitle{
 
 .btn-a{
     padding-left: 2px;
-}
-
-.sidebar-container{
-  justify-content: flex-end; 
 }
 
 .fa-circle-down{
