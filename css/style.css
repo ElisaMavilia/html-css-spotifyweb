@@ -235,8 +235,17 @@ main h3, .subtitle{
     overflow: auto;
 }
 
+#sidebar ul img{
+    height: 28px;
+    width: auto;
+    opacity: 0.8;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
 #logo-sidebar{
-    width: 80%;
+    width: 90%;
     margin-bottom: 15px;
     margin-top: 10px;
 }
