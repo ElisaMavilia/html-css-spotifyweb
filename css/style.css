@@ -226,7 +226,7 @@ main h3, .subtitle{
 }
 
 #sidebar-bottom{
-    height: 80px;
+    height: 90px;
     width: 100%;
     
 }
@@ -303,4 +303,23 @@ div hr{
     margin-right: 20px;
     margin-left: 2px;
     color: var(--color-grey-text);
+}
+
+#sidebar-bottom .sidebar-container div a img{
+    height: 15px;
+    width: auto;
+    opacity: 0.8;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#sidebar-bottom .sidebar-container #profile img{
+    height: 20px;
+    width: auto;
+    opacity: 0.8;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    background-color: var(--color-grey-text);
+    border-radius: 50%;
 }
