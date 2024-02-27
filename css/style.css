@@ -93,7 +93,7 @@ a{
     border-radius: 20px;
     padding: 10px 30px 10px 30px;
     margin-right: 40px;
-    margin-bottom: 40px;
+   
 }
 
 /* flex utility */
@@ -109,8 +109,16 @@ a{
     justify-content: flex-end;
 }
 
+.j-content-flex-start{
+    justify-content: flex-start;
+}
+
 .j-content-center{
     justify-content: center;
+}
+
+.space-around{
+    justify-content: space-around;
 }
 
 .a-items-center{
@@ -206,8 +214,41 @@ main h3, .subtitle{
     height: 100px;
 }
 
+.left-toolbar{
+    width: 25%;
+}
 
+.left-toolbar img{
+   height: 60px;
+   width: auto;
+}
 
+.left-text{
+    padding-left: 10px;
+}
+
+.album{
+    font-size: 0.8em;
+    font-weight: 800;
+}
+
+.fa-heart,.fa-folder{
+    font-size: 1em;
+    color: var(--color-grey-text);
+    padding-right: 10px;
+}
+
+.icons-toolbar{
+    padding-right: 5px;
+}
+
+.center-toolbar{
+    flex-grow: 1;
+}
+
+.right-toolbar{
+    width: 25%;
+}
 
 /* sidebar */
 #sidebar{
